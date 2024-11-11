@@ -5,7 +5,7 @@ function mostrarOculatMenu(){
         menuVisible = false;
     }else{
         document.getElementById("nav").classList="responsive"
-        menuVisible = tr;
+        menuVisible = true;
     }
 }
 
