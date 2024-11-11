@@ -1,0 +1,239 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IM-PLANT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="img/logo.jpg" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#"><img src="img/logo.jpg" alt="" /></a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#info-ceriman" onclick="Seleccionar()"
+                >Cuidado Aristaloe</a
+              >
+            </li>
+            <li>
+              <a href="#info-bonsai" onclick="Seleccionar()">Cuidado Pilea</a>
+            </li>
+            <li><a href="#ceriman" onclick="Seleccionar()">Aristaloe</a></li>
+            <li><a href="#bonsai" onclick="Seleccionar()">Pilea</a></li>
+            <li>
+              <a href="#loginPopup" onclick="Seleccionar()">Iniciar Secion</a>
+            </li>
+            <li>
+              <a href="#registerPopup" onclick="Seleccionar()">Registrarse</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOculatMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- Cuerpo de la página -->
+    <section id="ceriman" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/a1.jpg" alt="" />
+        </div>
+        <div class="tex">
+          <h1>Aristaloe aristata</h1>
+          <h2>
+            Origen: Es originaria de Sudáfrica y Lesoto, y suele encontrarse en
+            áreas montañosas. Descripción: Es una planta suculenta de tamaño
+            pequeño a mediano, con hojas triangulares gruesas y carnosas, de
+            color verde oscuro y con pequeñas espinas en los bordes. Las hojas
+            suelen curvarse ligeramente hacia el centro, formando una roseta
+            compacta. Floración: Produce flores en forma de tubo, de color rojo
+            o naranja, que crecen en un tallo largo y suelen aparecer en
+            primavera o verano.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider">
+      <div class="carousel-box">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <img src="img/a2.jpg" alt="Imagen 1" />
+          </div>
+          <div class="carousel-slide">
+            <img src="img/a3.jpg" alt="Imagen 2" />
+          </div>
+          <div class="carousel-slide">
+            <img src="img/a4.jpg" alt="Imagen 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info" id="info-ceriman">
+      <div class="titulo"><h2>CUIDADO DE LA PLANTA</h2></div>
+      <div class="agua">
+        <div class="img"><img src="img/r1.jpg" alt="" /></div>
+        <div class="texto">
+          <h2>RIEGO</h2>
+          <p>
+            Requiere poco riego, ya que es una planta suculenta. Se recomienda
+            regarla solo cuando el sustrato esté completamente seco.
+          </p>
+        </div>
+      </div>
+
+      <div class="tierra">
+        <div class="texto">
+          <h2>TIERRA</h2>
+          <p>
+            Necesita un sustrato bien drenado, idealmente una mezcla para cactus
+            o suculentas.
+          </p>
+        </div>
+        <div class="img"><img src="img/t1.jpg" alt="" /></div>
+      </div>
+
+      <div class="sol">
+        <div class="img"><img src="img/s1.jpg" alt="" /></div>
+        <div class="texto">
+          <h2>LUZ</h2>
+          <p>
+            Necesita luz brillante, idealmente luz indirecta, pero puede
+            adaptarse a luz directa por algunas horas. Prefiere temperaturas
+            cálidas, aunque puede soportar temperaturas ligeramente frías.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bonsai" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/p1.jpg" alt="" />
+        </div>
+        <div class="tex">
+          <h1>Pilea peperomioides</h1>
+          <h2>
+            Familia: Urticaceae Origen: Es originaria de las regiones montañosas
+            del suroeste de China. Descripción: Es una planta de follaje perenne
+            conocida por sus distintivas hojas redondeadas y planas, de color
+            verde brillante, que crecen en tallos largos. Su forma única le ha
+            ganado apodos como “planta china del dinero” o “planta de la
+            moneda”. Floración: Sus flores son pequeñas y poco vistosas, de
+            color blanco o rosado, y no son el principal atractivo de esta
+            planta.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="carousel-box">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <img src="img/p2.jpg" alt="Imagen 1" />
+          </div>
+          <div class="carousel-slide">
+            <img src="img/p3.jpg" alt="Imagen 2" />
+          </div>
+          <div class="carousel-slide">
+            <img src="img/p4.jpg" alt="Imagen 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info" id="info-bonsai">
+      <div class="titulo"><h2>CUIDADO DE LA PLANTA</h2></div>
+      <div class="agua">
+        <div class="img"><img src="img/r1.jpg" alt="" /></div>
+        <div class="texto">
+          <h2>RIEGO</h2>
+          <p>
+            Requiere un riego moderado, permitiendo que el sustrato se seque
+            ligeramente entre riegos. Es importante evitar el exceso de agua
+            para prevenir el encharcamiento.
+          </p>
+        </div>
+      </div>
+
+      <div class="tierra">
+        <div class="texto">
+          <h2>TIERRA</h2>
+          <p>
+            Prefiere un sustrato bien drenado y suelto. Es ideal una mezcla para
+            plantas de interior que permita buen drenaje. Usos: Su aspecto
+            decorativo y de bajo mantenimiento la hace popular como planta de
+            interior, y es valorada en la jardinería de interiores.
+          </p>
+        </div>
+        <div class="img"><img src="img/t1.jpg" alt="" /></div>
+      </div>
+
+      <div class="sol">
+        <div class="img"><img src="img/s1.jpg" alt="" /></div>
+        <div class="texto">
+          <h2>LUZ</h2>
+          <p>
+            Luz: Prefiere luz indirecta brillante, aunque puede tolerar niveles
+            bajos de luz. Evitar la exposición directa al sol para prevenir
+            quemaduras en las hojas. Riego: Requiere un riego moderado,
+            permitiendo que el sustrato se seque ligeramente entre riegos. Es
+            importante evitar el exceso de agua para prevenir el encharcamiento.
+            Temperatura: Se adapta bien a temperaturas templadas y no tolera
+            heladas.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Ventana Popup de Iniciar Sesión -->
+    <div id="loginPopup" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Iniciar Sesión</h2>
+        <form>
+          <label for="loginUsername">Usuario:</label>
+          <input type="text" id="loginUsername" required />
+
+          <label for="loginPassword">Contraseña:</label>
+          <input type="password" id="loginPassword" required />
+
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Ventana Popup de Registro -->
+    <div id="registerPopup" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Registrarse</h2>
+        <form>
+          <label for="registerUsername">Usuario:</label>
+          <input type="text" id="registerUsername" required />
+
+          <label for="registerPassword">Contraseña:</label>
+          <input type="password" id="registerPassword" required />
+
+          <button type="submit">Registrar</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
